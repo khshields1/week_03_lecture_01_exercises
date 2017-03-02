@@ -1,15 +1,16 @@
-.content {
-  font-family: Helvetica;
+$content: Helvetica;
+
+.p {
+  content: $content;
+  margin: 15px 0;
 }
 
-  p {
-    margin: 15px 0;
-  }
+.a {
+  content: $content;
+  text-decoration: underline;
+}
 
-  a {
-    text-decoration: underline;
-  }
-
-  button {
-    padding: 10px;
-  }
+.button {
+  content: $content;
+  padding: 10px;
+}
